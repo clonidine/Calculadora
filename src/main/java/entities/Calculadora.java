@@ -11,7 +11,7 @@ public class Calculadora {
     private String operacao;
     private Integer num1, num2;
 
-    public int calcular(String operacao) {
+    public int calcular() {
         return switch (operacao) {
             case "x" -> num1 * num2;
             case "+" -> num1 + num2;

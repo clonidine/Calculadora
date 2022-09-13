@@ -19,6 +19,6 @@ public class App {
         String operacao = sc.nextLine();
 
         Calculadora calculadora = new Calculadora(operacao, num1, num2);
-        System.out.println(calculadora.calcular(operacao));
+        System.out.println(calculadora.calcular());
     }
 }
